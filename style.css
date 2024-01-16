@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width:600px) {
+    #background {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 75%;
+    }
+    .input {
+        display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 60%;
+    }
+    #suggestion {
+        display: flex;
+        flex-direction: column;
+    }
+    #suggestion .mountain img {
+        width: 80vw;
+        height: 50vh;
+    }
+}
+
+
+/* Header */
+header {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 19%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 25%;
+}
+.logo p {
+  color: black;
+  font-size: 1.7em;
+}
+.Home {
+  color: orangered;
+}
+.navlist {
+  margin-top: 40px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.navlist ul {
+  display: flex;
+  color: black;
+}
+.navlist ul li {
+  list-style: none;
+  padding: 20px;
+  font-size: 18px;
+}
+.navlist li a {
+  text-decoration: none;
+}
+/* main body */
+#background {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 85%;
+    border-radius: 16px;
+    height: 500px;
+    margin-left: 7%;
+    margin-right: 7%;
+     display: flex;
+     flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-position: center;
+}
+.H {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+}
+.P {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: white;
+    font-size: 2vw;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    gap: 10px;
+}
+.input input[type="text"] {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    align-items: center;
+    border-style: none;
+    outline: none;
+    padding: 0 10px;
+}
+#When {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    border-style: none;
+    outline: none;
+    padding: 0 10px;
+}
+#Select-type {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    border-style: none;
+    outline: none;
+    padding: 0 10px;
+}
+.Find button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    border-style: none;
+    background-color: orangered;
+    color: #fff;
+    size: 1em;
+}
+/* suggestion */
+#suggestion {
+    width: 85%;
+    border-radius: 16px;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+     display: flex;
+    justify-content: space-between; 
+    background-position: center;
+}
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: black;
+    font-size: 2vw;
+}
+.plans h1 {
+    margin-bottom: 5%;
+}
+.plans button {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-size: 1.3vw;
+    width: 40vw;
+    height: 20vh;
+}
+.para p {
+    margin-bottom: 5%;
+}
+.para ul li {
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.mountain img {
+    width: 40vw;
+    height: 70vh;
+}
