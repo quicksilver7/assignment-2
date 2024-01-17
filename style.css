@@ -507,3 +507,39 @@ height: 63vh;
     margin-bottom: 5%;
     margin-right: .9%;
 }
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 60vh;
+    background: rgba(19, 19, 24, 0.05);
+    gap: 3vh;
+}
+.footer-icon {
+    display: flex;
+justify-content: space-around;
+margin-top: 3%;
+width: 25vw;
+font-size: 2vw;
+}
+.footer-h {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-p {
+    display: flex;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+}
+.line {
+    border: 2px;
+    background: rgba(19, 19, 24, 0.10);
+color: #1313181A;
+position: relative;
+margin-bottom: 3%;
+margin-left: 20%;
+
+}
