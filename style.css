@@ -60,16 +60,34 @@
         justify-content: center;
         align-items: center;
         width: 85%;
-        height: 30%;
+        margin-left: 7%;
+        margin-right: 7%;
+        gap: 3%;
     }
     #reasons2 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        width: 85%;
-        height: 30%;
+        justify-content: center;
     }
+    #reasons2 .Hotels {
+        height: 50%;
+    }
+    #reasons2 .Service {
+height: 50%;
+ }
+ #value {
+    margin-top: 50%;
+width: 80vw;
+height: 50%;
+ }
+ #Newsletter {
+    display: flex;
+    flex-direction: column;
+ }
+ #Newsletter .newsletter {
+    margin-bottom: 5%;
+ }
 }
 
 
@@ -295,12 +313,19 @@ display: flex;
             margin-bottom: 1%;
         }
 /* why to choose */
-#reasons {
+#container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 7%;
     margin-right: 7%;
+}
+#reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #fff;
     color: #131318;
     margin-top: 3%;
@@ -317,7 +342,6 @@ display: flex;
     margin-top: 5%;
 }
 #reasons .choose h1 {
-size: 50vw;
 padding: 3%;
 }
 #reasons .choose p {
@@ -328,11 +352,9 @@ padding: 3%;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin-left: 7%;
-    margin-right: 7%;
     margin-top: 3%;
     width: 85vw;
-    height: 55vh;
+    height: 60vh;
     gap: 1.5vw;
 }
 #reasons2 .Hotels {
@@ -381,30 +403,31 @@ padding: 3%;
     margin-left: 3%;
     padding: 3%;
 }
-.Price {
+#value {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: start;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 7vw;
+    margin-right: 7vw;
     border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
-width: 60%;
-height: 45vh;
+}
+#value .Price {
+    width: 85%;
+    height: 50vh;
 }
 .Price h1{
     display: flex;
     flex-direction: column;
     margin-left: 3%;
-    margin-right: 5%;
+    margin-right: 2%;
     padding: 3%;
     gap: 15px;
 }
 .Price p {
     margin-left: 3%;
-    margin-right: 5%;
+    margin-right: 2%;
     padding: 3%;
 }
 /* Newsletter */
@@ -499,12 +522,12 @@ height: 63vh;
     align-items: center;
     background-color: orangered;
     color: #fff;
-    width: 17vw;
-    height: 15vh;
+    width: 214.023px;
+    height: 79.268px;
     border-radius: 16px;
     transform: rotate(-19.628deg);
     flex-shrink: 0;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-right: .9%;
 }
 #footer {
@@ -535,11 +558,17 @@ font-size: 2vw;
     text-align: center;
 }
 .line {
-    border: 2px;
+    height: 1px;
+    width: 70vw;
     background: rgba(19, 19, 24, 0.10);
-color: #1313181A;
+color: red;
 position: relative;
-margin-bottom: 3%;
-margin-left: 20%;
-
+margin-top: 2vh;
+margin-bottom: 2vh;
+margin-left: 15vw;
+margin-right: 15vw;
+}
+.rights {
+    color: #131318;
+    font-size: 15px;
 }
